@@ -1,9 +1,27 @@
 # Astra/Gatsby.js Sample App
 
 ## How to get started:
-1. Create an [Astra account](https://astra.datastax.com/register)
-2. Clone this repository: `https://github.com/alexleventer/astra-gatsbyjs.git`
-3. Create a `.env.development` file with your Astra credentials (see `.sample.env.development` example).
-4. Install node dependencies: `yarn`.
-5. Run your app: `gatsby develop`.
-6. View your app at `localhost:8000`.
+1. Create an [Astra account](https://astra.datastax.com/register), database, and keyspace.
+2. Add some sample data to your Astra database using the CQL console:
+
+```sql
+    USE test; // Assuming your keyspace is named test
+
+    CREATE TABLE IF NOT EXISTS characters (
+       id int,
+       name text PRIMARY KEY,
+       actorName text,
+       houseName text,
+       royal boolean
+    );
+
+    INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (1, 'Jon Snow', 'Kit Harington', 'Stark', true);
+    INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (2, 'Daenerys Targaryen', 'Emilia Clarke', 'Targaryen', true);
+    INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (3, 'Tyrion Lannister', 'Peter Dinklage', 'Lannister', false);
+    INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (4, 'Arya Stark', 'Maisie Williams', 'Stark', false);
+```
+3. Clone this repository: `https://github.com/alexleventer/astra-gatsbyjs.git`.
+4. Create a `.env.development` file with your Astra credentials (see the `.sample.env.development` example).
+5. Install node dependencies: `yarn install`.
+6. Run your app: `gatsby develop`.
+7. View your app at `localhost:8000`.
