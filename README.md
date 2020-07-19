@@ -20,7 +20,7 @@
     INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (3, 'Tyrion Lannister', 'Peter Dinklage', 'Lannister', false);
     INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (4, 'Arya Stark', 'Maisie Williams', 'Stark', false);
 ```
-3. Clone this repository: `https://github.com/alexleventer/astra-gatsbyjs.git`.
+3. Clone this repository: `https://github.com/alexleventer/astra-gatsbyjs-starter.git`.
 4. Create a `.env.development` file with your Astra credentials (see the [`.sample.env.development`](.sample.env.development) example).
 5. Install node dependencies: `yarn install` or `npm install`.
 6. Run your app: `gatsby develop`.
