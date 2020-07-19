@@ -1,4 +1,5 @@
 # Astra/Gatsby.js Starter
+A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 
 ## 🚀 How to get started:
 1. Create an [Astra account](https://astra.datastax.com/register), database, and keyspace.
