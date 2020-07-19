@@ -24,7 +24,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <SEO title="Home" />
     <h1 style={{marginTop: 50}}>Characters:</h1>
-    {data && data.astra.characters.values.map(character => <div>{character.name}</div>)}
+    {data && data.astra && data.astra.characters && data.astra.characters.values.map((character, i) => <div key={i}>{character.name}</div>)}
   </Layout>
 )
 
