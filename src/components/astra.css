@@ -1,0 +1,48 @@
+.announcement {
+    height: 65px;
+    width: 100%;
+    background: #24598E;
+    padding: 20px;
+}
+
+.announcement p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.announcement p a {
+    color: #fff;
+}
+
+.hero {
+    background: url(../images/star-field-hero.png);
+    height: 300px;
+    padding: 120px;
+}
+
+.hero p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+.hero h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    padding: 0;
+    max-width: 100%;
+}
