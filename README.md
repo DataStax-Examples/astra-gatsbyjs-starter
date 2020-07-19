@@ -1,8 +1,8 @@
 # Astra/Gatsby.js Starter
 
-## How to get started:
+## 🚀 How to get started:
 1. Create an [Astra account](https://astra.datastax.com/register), database, and keyspace.
-2. Add some sample data to your Astra database using the CQL console:
+2. Add some sample data to your Astra database using the Astra CQL console:
 
 ```sql
     USE test; // Assuming your keyspace is named test
