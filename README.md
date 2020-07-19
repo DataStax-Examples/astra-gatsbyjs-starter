@@ -1,4 +1,4 @@
-# Astra/Gatsby.js Sample App
+# Astra/Gatsby.js Starter
 
 ## How to get started:
 1. Create an [Astra account](https://astra.datastax.com/register), database, and keyspace.
