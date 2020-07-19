@@ -5,7 +5,7 @@
 2. Add some sample data to your Astra database using the Astra CQL console:
 
 ```sql
-    USE test; // Assuming your keyspace is named test
+    USE test; // Set this to the name of your keyspace 
 
     CREATE TABLE IF NOT EXISTS characters (
        id int,
