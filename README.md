@@ -24,4 +24,4 @@
 4. Create a `.env.development` file with your Astra credentials (see the [`.sample.env.development`](.sample.env.development) example).
 5. Install node dependencies: `yarn install` or `npm install`.
 6. Run your app: `gatsby develop`.
-7. View your app at [`localhost:8000`](localhost:8000).
+7. View your app at [`localhost:8000`](http://localhost:8000).
