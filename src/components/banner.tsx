@@ -1,5 +1,3 @@
-import { Link } from 'gatsby';
-import * as PropTypes from 'prop-types';
 import * as React from 'react';
 
 const Banner = ({ copy, linkText, href }) => (
@@ -9,13 +7,5 @@ const Banner = ({ copy, linkText, href }) => (
     </p>
   </div>
 )
-
-Banner.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Banner.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Banner;

@@ -1,15 +1,15 @@
 .announcement {
-    height: 65px;
+    height: 50px;
     width: 100%;
     background: #24598E;
-    padding: 20px;
+    padding: 12px;
 }
 
 .announcement p {
     text-align: center;
     font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
+    font-weight: 600;
+    font-size: 16px;
     color: #FFFFFF;
 }
 
@@ -19,8 +19,8 @@
 
 .hero {
     background: url(../images/star-field-hero.png);
-    height: 300px;
-    padding: 120px;
+    height: 225px;
+    padding: 80px;
 }
 
 .hero p {
@@ -37,8 +37,8 @@
 }
 
 .hero h2 {
-    font-weight: bold;
-    font-size: 48px;
+    font-weight: 600;
+    font-size: 35px;
     line-height: 56px;
     text-align: center;
     color: #FFFFFF;
