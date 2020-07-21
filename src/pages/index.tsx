@@ -2,7 +2,7 @@ import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { Table } from 'evergreen-ui'
+import { Table } from 'evergreen-ui';
 
 type Character = {
   actorname:string
