@@ -1,9 +1,7 @@
-import { Link } from 'gatsby';
-import * as PropTypes from 'prop-types';
 import * as React from 'react';
 import Banner from './banner';
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <div>
     <Banner linkText={'Create an account now'} href={'https://astra.datastax.com/register'} copy={'Get Started with Astra and Gatsby!'} />
     <div className={'hero'} >
@@ -14,4 +12,4 @@ const Header = ({ siteTitle }) => (
   </div>
 )
 
-export default Header
+export default Header;
