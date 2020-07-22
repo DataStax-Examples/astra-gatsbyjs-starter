@@ -1,4 +1,4 @@
-const fetch = require('cross-fetch');
+const fetch = require("cross-fetch")
 
 module.exports = getAstraToken = async () => {
   return await fetch(`https://${process.env.ASTRA_DB_ID}-${process.env.ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/auth`, {
@@ -14,7 +14,7 @@ module.exports = getAstraToken = async () => {
     if (res.status >= 400) {
       throw new Error('Could not generate Astra credentials');
     }
-    return res.json();
+    return res.json()
   }).then(body => {
     if (!body || !body.authToken) {
       throw new Error('Could not generate Astra credentials');
