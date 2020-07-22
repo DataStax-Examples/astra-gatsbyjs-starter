@@ -28,7 +28,7 @@ A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 7. View your app at [`localhost:8000`](http://localhost:8000).
 
 ## ☁️ Deploying your site to Netlify
-1. Create a Netlify account.
+1. Create a [Netlify account](https://www.netlify.com).
 2. Create a Netlify application.
 3. Connect your GitHub repo your Netlify application.
 4. Set your Netlify application build environment variables to match the environment variables in your .env file.
