@@ -2,6 +2,15 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+if (!process.env.ASTRA_DB_ID) {
+  throw new Error('Missing required environment variable, ASTRA_DB_ID');
+}
+
+if (!process.env.ASTRA_DB_REGION) {
+  throw new Error('Missing required environment variable, ASTRA_DB_REGION');
+}
+
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Astra Starter`,
@@ -31,7 +40,7 @@ module.exports = {
       options: {
         typeName: `Astra`,
         fieldName: `astra`,
-        url: `https://${process.env.ASTRA_DB_ID}-${process.env.ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql`,
+        url: `https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql`,
         headers: async () => {
           return {
             'X-Cassandra-Token': await getAstraToken(),
