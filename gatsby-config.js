@@ -40,7 +40,7 @@ module.exports = {
       options: {
         typeName: `Astra`,
         fieldName: `astra`,
-        url: `https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql`,
+        url: `https://${process.env.ASTRA_DB_ID}-${process.env.ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql`,
         headers: async () => {
           return {
             'X-Cassandra-Token': await getAstraToken(),
