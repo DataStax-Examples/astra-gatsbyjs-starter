@@ -1,7 +1,7 @@
 # Astra/Gatsby.js Starter
 A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-gatsbyjs-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alexleventer/astra-gatsbyjs-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-gatsbyjs-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
 
 ## 🚀 Getting Started Paths:
 1. [Run the app locally](#running-on-your-local-machine)
@@ -28,7 +28,7 @@ A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
 2. Click the 'Open in Gitpod link':
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-gatsbyjs-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
 
 3. Wait for your Gitpod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
@@ -46,7 +46,7 @@ You can find your database id here:
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
 2. Click the 'Deploy to Netlify' button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alexleventer/astra-gatsbyjs-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
 
 3. Connect your GitHub account:
 ![image](https://user-images.githubusercontent.com/3254549/88753274-a2d87c80-d110-11ea-99cd-671b9da9cfcc.png)
