@@ -1,3 +1,10 @@
 [build]
   publish = "public"
   command = "npm run clean && npm run build"
+
+[template.environment]
+  ASTRA_DB_USERNAME = "Your Astra DB Username"
+  ASTRA_DB_PASSWORD = "Your Astra DB Password"
+  ASTRA_DB_KEYSPACE = "Your Astra DB Keyspace"
+  ASTRA_DB_REGION = "Your Astra DB Region"
+  ASTRA_DB_ID = "Your Astra DB ID"
