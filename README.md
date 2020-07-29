@@ -3,7 +3,12 @@ A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-gatsbyjs-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alexleventer/astra-gatsbyjs-starter)
 
-## 🚀 Getting Started:
+## 🚀 Getting Started Paths:
+1. [Run the app locally](#running-on-your-local-machine)
+2. [Run the app is Gitpod](#running-on-gitpod)
+3. [Deploy the app to Netlify](#deploying-to-netlify)
+
+### Running on your local machine
 1. Create a [DataStax Astra](https://astra.datastax.com/register) Cassandra database (free tier):
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
 2. Click 'Use this template' at the top of the README:
@@ -17,3 +22,43 @@ A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 7. Start your app by running: `npm start`
 8. You can view your app at  http://localhost:8000/:
 ![image](https://user-images.githubusercontent.com/3254549/88751025-9e5d9500-d10b-11ea-9776-3276ada4fece.png)
+
+### Running on Gitpod
+1. Create a [DataStax Astra](https://astra.datastax.com/register) Cassandra database (free tier):
+![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
+2. Click the 'Open in Gitpod link':
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-gatsbyjs-starter)
+
+3. Wait for your Gitpod workspace to start:
+![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
+4. Set your Astra credentials in the Gitpod terminal at the bottom of the screen:
+![image](https://user-images.githubusercontent.com/3254549/88752966-f7c7c300-d10f-11ea-9a78-d2a9707192bd.png)
+You can find your database id here:
+![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
+5. Click the 'Open browser' button in the bottom right of the screen:
+![image](https://user-images.githubusercontent.com/3254549/88753046-23e34400-d110-11ea-80d9-62a6ba437183.png)
+6. View your application:
+![image](https://user-images.githubusercontent.com/3254549/88753166-6ad13980-d110-11ea-84c4-87932a933c6b.png)
+
+### Deploying to Netlify
+1. Create a [DataStax Astra](https://astra.datastax.com/register) Cassandra database (free tier):
+![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
+2. Click the 'Deploy to Netlify' button:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/phact/todo-astra-jamstack-netlify)
+
+3. Connect your GitHub account:
+![image](https://user-images.githubusercontent.com/3254549/88744656-d9a49780-d0fc-11ea-97ad-f05aa0ace11e.png)
+4. Fill in the Netlify environment variables with information on your Astra environment:
+![image](https://user-images.githubusercontent.com/3254549/88744704-fb9e1a00-d0fc-11ea-8d92-4182aed4499d.png)
+You can find your database id here:
+![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
+5. Click 'Save and Deploy':
+![image](https://user-images.githubusercontent.com/3254549/88744776-2c7e4f00-d0fd-11ea-8530-71e2a85e34a2.png)
+6. Wait for your app to deploy:
+![image](https://user-images.githubusercontent.com/3254549/88744798-3bfd9800-d0fd-11ea-8858-281bd0d4ff70.png)
+7. Click your Netlify app link to view your live app:
+![image](https://user-images.githubusercontent.com/3254549/88744822-4fa8fe80-d0fd-11ea-97dd-9f9611b332dc.png)
+8. You've deployed your app to Netlify!
+![image](https://user-images.githubusercontent.com/3254549/88744842-62233800-d0fd-11ea-8e20-29aa71027885.png)
