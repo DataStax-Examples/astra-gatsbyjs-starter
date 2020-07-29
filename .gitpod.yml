@@ -4,4 +4,14 @@ tasks:
     command: yarn build
 ports:
   - port: 8000
-    onOpen: open-preview
+    onOpen: open-browser
+github:
+  prebuilds:
+    master: true
+    branches: false
+    pullRequests: false
+    pullRequestsFromForks: false
+    addCheck: false
+    addComment: false
+    addBadge: false
+    addLabel: false
