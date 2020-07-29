@@ -1,34 +1,49 @@
 # Astra/Gatsby.js Starter
 A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 
-## 🚀 How to get started:
-1. Create an [Astra account](https://astra.datastax.com/register), database, and keyspace.
-2. Add some sample data to your Astra database using the Astra CQL console:
+## 🚀 Getting Started Paths:
+1. [Run the app locally](#running-on-your-local-machine)
+2. [Run the app is Gitpod](#running-on-gitpod)
+3. [Deploy the app to Netlify](#deploying-to-netlify)
 
-```sql
-    USE test; // Set this to the name of your keyspace 
+### Running on your local machine
+1. Create a [DataStax Astra](https://astra.datastax.com/register) Cassandra database (free tier):
+![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
+2. Click 'Use this template' at the top of the README:
 
-    CREATE TABLE IF NOT EXISTS characters (
-       id int,
-       name text PRIMARY KEY,
-       actorName text,
-       houseName text,
-       royal boolean
-    );
+### Running on Gitpod
+1. Create a [DataStax Astra](https://astra.datastax.com/register) Cassandra database (free tier):
+![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
+2. Click the 'Open in Gitpod link':
 
-    INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (1, 'Jon Snow', 'Kit Harington', 'Stark', true);
-    INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (2, 'Daenerys Targaryen', 'Emilia Clarke', 'Targaryen', true);
-    INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (3, 'Tyrion Lannister', 'Peter Dinklage', 'Lannister', false);
-    INSERT INTO characters (id, name, actorName, houseName, royal) VALUES (4, 'Arya Stark', 'Maisie Williams', 'Stark', false);
-```
-3. Clone this repository: `git clone https://github.com/alexleventer/astra-gatsbyjs-starter.git`.
-4. Create a `.env.development` file with your Astra credentials (see the [`.sample.env.development`](.sample.env.development) example).
-5. Install Node dependencies: `yarn install` or `npm install`.
-6. Run your app: `gatsby develop`.
-7. View your app at [`localhost:8000`](http://localhost:8000).
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/phact/todo-astra-jamstack-netlify)
+3. Wait for your Gitpod workspace to start:
+![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
+4. Set your Astra credentials in the Gitpod terminal at the bottom of the screen:
 
-## ☁️ Deploying your app to Netlify
-1. Create a [Netlify account](https://www.netlify.com).
-2. Create a Netlify application.
-3. Connect your GitHub repo your Netlify application.
-4. Set your Netlify application build environment variables to match the environment variables in your .env file.
+You can find your database id here:
+![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
+5. Click the 'Open browser' button in the bottom right of the screen:
+
+6. View your application:
+
+### Deploying to Netlify
+1. Create a [DataStax Astra](https://astra.datastax.com/register) Cassandra database (free tier):
+![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
+2. Click the 'Deploy to Netlify' button:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/phact/todo-astra-jamstack-netlify)
+3. Connect your GitHub account:
+
+4. Fill in the Netlify environment variables with information on your Astra environment:
+
+You can find your database id here:
+![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
+5. Click 'Save and Deploy':
+
+6. Wait for your app to deploy:
+
+7. Click your Netlify app link to view your live app:
+
+8. You've deployed your app to Netlify!
+
