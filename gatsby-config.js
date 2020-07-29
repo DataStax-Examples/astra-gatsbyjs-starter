@@ -10,7 +10,6 @@ if (!process.env.ASTRA_DB_REGION) {
   throw new Error('Missing required environment variable, ASTRA_DB_REGION');
 }
 
-
 module.exports = {
   siteMetadata: {
     title: `Gatsby Astra Starter`,
@@ -18,6 +17,19 @@ module.exports = {
     author: `Alex Leventer`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `Astra`,
+        fieldName: `astra`,
+        url: `https://${process.env.ASTRA_DB_ID}-${process.env.ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql`,
+        headers: async () => {
+          return {
+            'X-Cassandra-Token': await getAstraToken(),
+          };
+        }
+      },
+    },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
@@ -33,19 +45,6 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-graphql`,
-      options: {
-        typeName: `Astra`,
-        fieldName: `astra`,
-        url: `https://${process.env.ASTRA_DB_ID}-${process.env.ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql`,
-        headers: async () => {
-          return {
-            'X-Cassandra-Token': await getAstraToken(),
-          };
-        },
       },
     },
   ]

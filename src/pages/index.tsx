@@ -2,64 +2,52 @@ import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { Table } from 'evergreen-ui';
+import { CodeBlock, dracula } from 'react-code-blocks';
 
-type Character = {
-  actorname:string
-  housename:string
-  name:string
-  id:number
-  royal:boolean
-}
-
-type DataProps = {
-  astra: {
-    characters: {
-      values: Character[]
-    }
-  }
-}
-
-const IndexPage: React.FC<PageProps<DataProps>> = ({ data, path }) => (
+const IndexPage: React.FC<PageProps<any>> = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
-    <Table style={{marginTop: 50}}>
-      <Table.Head>
-        <Table.TextHeaderCell>
-          Name
-        </Table.TextHeaderCell>
-        <Table.TextHeaderCell>
-          Actor Name
-        </Table.TextHeaderCell>
-        <Table.TextHeaderCell>
-          House Name
-        </Table.TextHeaderCell>
-      </Table.Head>
-      <Table.Body height={240}>
-        {data.astra.characters.values.map(character => (
-          <Table.Row key={character.name}>
-            <Table.TextCell>{character.name}</Table.TextCell>
-            <Table.TextCell>{character.actorname}</Table.TextCell>
-            <Table.TextCell>{character.housename}</Table.TextCell>
-          </Table.Row>
-        ))}
-      </Table.Body>
-    </Table>
+    <SEO title="Home"/>
+    <h3>Fields Example Query</h3>
+    <h4>Example Query:</h4>
+    <CodeBlock
+      text={`query getCharacters {
+      astra {
+          characters {
+              values {
+                  actorname
+                  housename
+                  name
+              }
+          }
+      }
+  }`}
+      language={'graphql'}
+      showLineNumbers={false}
+      theme={dracula}
+    />
+    <h4>Results:</h4>
+    <CodeBlock
+      text={JSON.stringify(data, null, 2)}
+      language={'json'}
+      showLineNumbers={false}
+      theme={dracula}
+    />
+
   </Layout>
 )
 
 export default IndexPage;
 
 export const query = graphql`
-  {
-    astra {
-        characters {
-          values {
-            actorname
-            housename
-            name
+  query getCharacters {
+      astra {
+          characters {
+              values {
+                  actorname
+                  housename
+                  name
+              }
           }
-        }
-    }
+      }
   }
 `;
