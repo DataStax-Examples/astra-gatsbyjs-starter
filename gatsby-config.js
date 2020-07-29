@@ -17,6 +17,7 @@ module.exports = {
     author: `Alex Leventer`,
   },
   plugins: [
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-graphql`,
       options: {
