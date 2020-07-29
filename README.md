@@ -15,6 +15,8 @@ A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 ![image](https://user-images.githubusercontent.com/3254549/88746670-eb3c6e00-d101-11ea-9b7c-f9e83c754be5.png)
 4. Clone the repository:
 ![image](https://user-images.githubusercontent.com/3254549/88746708-01e2c500-d102-11ea-9b25-174a45ef8545.png)
+5. Install Node dependencies: `yarn install`
+6. Create a `.env.development` file, using the [.sample.env.development](.sample.env.development) file as an example.
 
 ### Running on Gitpod
 1. Create a [DataStax Astra](https://astra.datastax.com/register) Cassandra database (free tier):
