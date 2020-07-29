@@ -1,6 +1,8 @@
 # Astra/Gatsby.js Starter
 A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-gatsbyjs-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alexleventer/astra-gatsbyjs-starter)
+
 ## 🚀 Getting Started:
 1. Create a [DataStax Astra](https://astra.datastax.com/register) Cassandra database (free tier):
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
