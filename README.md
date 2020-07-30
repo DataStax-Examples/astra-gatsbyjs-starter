@@ -12,6 +12,6 @@ A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 ![image](https://user-images.githubusercontent.com/3254549/88746708-01e2c500-d102-11ea-9b25-174a45ef8545.png)
 5. Install Node dependencies: `yarn install`
 6. Run the set up script: ` . ./gitpod-setup.sh`
-7. Start your app by running: `npm start`
+7. Start your app by running: `yarn start`
 8. You can view your app at  http://localhost:8000/:
 ![image](https://user-images.githubusercontent.com/3254549/88751025-9e5d9500-d10b-11ea-9776-3276ada4fece.png)
