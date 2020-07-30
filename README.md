@@ -5,7 +5,7 @@ A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
 
 ## 🚀 Getting Started Paths:
 1. [Run the app locally](#running-on-your-local-machine)
-2. [Run the app is Gitpod](#running-on-gitpod)
+2. [Run the app on Gitpod](#running-on-gitpod)
 3. [Deploy the app to Netlify](#deploying-to-netlify)
 
 ### Running on your local machine
