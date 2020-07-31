@@ -1,15 +1,15 @@
 # Astra/Gatsby.js Starter
 A sample React, Typescript, [DataStax Astra](https://astra.datastax.com/register), Gatsby.js app starter app.
 
+Contributor: [Sebastián Estévez](https://github.com/phact)
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-gatsbyjs-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
 
-Contributor(s): [Sebastián Estévez](https://github.com/phact)
-
 ## Objectives
-* Provide a fullstack development example using GraphQL with Astra as the storage backend
+* Provide a fullstack development example using GraphQL with Astra as the storage backend.
 
 ## How this works
-Once the Astra credentials are provided, the necessary tables are created in the database. The webservice will be available on port 8080 once the application has been deployed
+Once the Astra credentials are provided, the necessary tables are created in the database. The webservice will be available on port 8080 once the application has been deployed.
 
 This example uses Typescript. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, and adds optional static typing to the language. It is is designed for development of large applications and transcompiles to JavaScript.
 
