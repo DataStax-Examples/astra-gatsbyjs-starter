@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexleventer/astra-gatsbyjs-starter"
+    "url": "https://github.com/DataStax-Examples/astra-gatsbyjs-starter"
   },
   "bugs": {
-    "url": "https://github.com/alexleventer/astra-gatsbyjs-starter/issues"
+    "url": "https://github.com/DataStax-Examples/astra-gatsbyjs-starter/issues"
   }
 }
