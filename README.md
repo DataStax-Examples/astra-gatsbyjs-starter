@@ -31,9 +31,9 @@ Deploying a static web application on [Netlify](https://www.netlify.com/) allows
 ![image](https://user-images.githubusercontent.com/3254549/88746670-eb3c6e00-d101-11ea-9b7c-f9e83c754be5.png)
 4. Clone the repository:
 ![image](https://user-images.githubusercontent.com/3254549/88746708-01e2c500-d102-11ea-9b25-174a45ef8545.png)
-5. Install Node dependencies: `yarn install` (Alternatively, use npm: `npm install`)
+5. Install Node dependencies with [Yarn](https://yarnpkg.com/): `yarn install` (Alternatively, use npm: `npm install`)
 6. Run the set up script: ` . ./gitpod-setup.sh`
-7. You will need [Yarn](https://yarnpkg.com/) to run this app. Start your app by running: `yarn start`(If using npm: `npm start`)
+7. Start your app by running: `yarn start`(If using npm: `npm start`)
 8. You can view your app at  http://localhost:8000/:
 ![image](https://user-images.githubusercontent.com/3254549/88751025-9e5d9500-d10b-11ea-9776-3276ada4fece.png)
 
