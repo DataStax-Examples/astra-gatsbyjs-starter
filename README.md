@@ -1,7 +1,21 @@
 # Astra/Gatsby.js Starter
-A sample React, Typescript, DataStax Astra, Gatsby.js starter app.
+A sample React, Typescript, [DataStax Astra](https://astra.datastax.com/register), Gatsby.js app starter app.
+
+Contributor: [Alex Leventer](https://github.com/alexleventer)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-gatsbyjs-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
+
+## Objectives
+* Provide a fullstack development example using GraphQL with Astra as the storage backend.
+
+## How this works
+Once the Astra credentials are provided, the necessary tables are created in the database. The webservice will be available on port 8080 once the application has been deployed.
+
+This example uses Typescript. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, and adds optional static typing to the language. It is is designed for development of large applications and transcompiles to JavaScript.
+
+[Gatsby](https://www.gatsbyjs.org/) is a React-based, GraphQL powered, static site generator, with much of the functionality of a modern front-end framework. It brings together the best components of React, webpack, react-router, GraphQL, and other front-end tools. This is used to generate the application.
+
+Deploying a static web application on [Netlify](https://www.netlify.com/) allows us to reap the benefits and not having to rely on our own webserver; it will also handle the Astra user credentials for us.
 
 ## 🚀 Getting Started Paths:
 1. [Run the app locally](#running-on-your-local-machine)
@@ -17,9 +31,9 @@ A sample React, Typescript, DataStax Astra, Gatsby.js starter app.
 ![image](https://user-images.githubusercontent.com/3254549/88746670-eb3c6e00-d101-11ea-9b7c-f9e83c754be5.png)
 4. Clone the repository:
 ![image](https://user-images.githubusercontent.com/3254549/88746708-01e2c500-d102-11ea-9b25-174a45ef8545.png)
-5. Install Node dependencies: `yarn install`
+5. Install Node dependencies with [Yarn](https://yarnpkg.com/): `yarn install` (Alternatively, use npm: `npm install`)
 6. Run the set up script: ` . ./gitpod-setup.sh`
-7. Start your app by running: `yarn start`
+7. Start your app by running: `yarn start`(If using npm: `npm start`)
 8. You can view your app at  http://localhost:8000/:
 ![image](https://user-images.githubusercontent.com/3254549/88751025-9e5d9500-d10b-11ea-9776-3276ada4fece.png)
 
