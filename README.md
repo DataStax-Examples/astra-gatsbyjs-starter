@@ -1,5 +1,5 @@
 # Astra/Gatsby.js Starter
-A sample React, Typescript, DataStax Astra, Gatsby.js app starter app.
+A sample React, Typescript, DataStax Astra, Gatsby.js starter app.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-gatsbyjs-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
 
