@@ -1,5 +1,5 @@
 # Astra/Gatsby.js Starter
-A sample React, Typescript, [DataStax Astra](https://astra.datastax.com/register), Gatsby.js app starter app.
+A sample React, Typescript, [DataStax Astra](https://astra.datastax.com/register){:target="_blank"}, Gatsby.js app starter app.
 
 Contributor: [Alex Leventer](https://github.com/alexleventer)
 
