@@ -70,7 +70,7 @@ You can find your database id here:
 ![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
 5. Click 'Save and Deploy':
 ![image](https://user-images.githubusercontent.com/3254549/88744776-2c7e4f00-d0fd-11ea-8530-71e2a85e34a2.png)
-6. Wait for your app to deploy:
+6. Wait for your app to deploy (this will take a minute or two):
 ![image](https://user-images.githubusercontent.com/3254549/88753399-e337fa80-d110-11ea-8a70-55c1867b3faa.png)
 7. Click your Netlify app link to view your live app:
 ![image](https://user-images.githubusercontent.com/3254549/88753507-2e520d80-d111-11ea-8d3a-ce9e79e04c45.png)
