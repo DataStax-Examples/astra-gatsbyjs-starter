@@ -15,8 +15,6 @@ This example uses Typescript. TypeScript is a typed superset of JavaScript that 
 
 [Gatsby](https://www.gatsbyjs.org/) is a React-based, GraphQL powered, static site generator, with much of the functionality of a modern front-end framework. It brings together the best components of React, webpack, react-router, GraphQL, and other front-end tools. This is used to generate the application.
 
-Deploying a static web application on [Netlify](https://www.netlify.com/) allows us to reap the benefits and not having to rely on our own webserver; it will also handle the Astra user credentials for us.
-
 ## 🚀 Getting Started Paths:
 1. [Run the app locally](#running-on-your-local-machine)
 2. [Run the app on Gitpod](#running-on-gitpod)
