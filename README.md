@@ -40,7 +40,7 @@ Deploying a static web application on [Netlify](https://www.netlify.com/) allows
 ### Running on Gitpod
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
-2. Click the 'Open in Gitpod link':
+2. Once you have created both an Astra account and database, click the 'Open in Gitpod' link:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
 
@@ -48,7 +48,7 @@ Deploying a static web application on [Netlify](https://www.netlify.com/) allows
 ![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
 4. Set your Astra credentials in the Gitpod terminal at the bottom of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/88752966-f7c7c300-d10f-11ea-9a78-d2a9707192bd.png)
-You can find your database id here:
+You can find your database id here in the Astra user-interface here:
 ![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
 5. Click the 'Open browser' button in the bottom right of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/88753046-23e34400-d110-11ea-80d9-62a6ba437183.png)
@@ -58,7 +58,7 @@ You can find your database id here:
 ### Deploying to Netlify
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
-2. Click the 'Deploy to Netlify' button:
+2. Once you have created both an Astra account and database, click the 'Deploy to Netlify' button:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
 
