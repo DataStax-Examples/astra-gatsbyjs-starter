@@ -38,32 +38,32 @@ function setupTable() {
 
   # Get Astra auth token
   echo "Getting your Astra auth token..."
-  AUTH_TOKEN=$(curl --request POST \
+  AUTH_TOKEN=$(curl -s --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/auth" \
     --header 'content-type: application/json' \
     --data '{"username":"'"${ASTRA_DB_USERNAME}"'","password":"'"${ASTRA_DB_PASSWORD}"'"}' | jq -r '.authToken')
 
-  # Create tables
+  # Create todos table
   echo "Creating Astra tables..."
-  TABLE_CREATION=$(curl --request POST \
+  curl -s --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables" \
     --header 'content-type: application/json' \
     --header "x-cassandra-token: ${AUTH_TOKEN}" \
-    --data '{"ifNotExists":true,"columnDefinitions":[{"static":false,"name":"name","typeDefinition":"text"},{"static":false,"name":"id","typeDefinition":"int"},{"static":false,"name":"actorName","typeDefinition":"text"},{"static":false,"name":"houseName","typeDefinition":"text"},{"static":false,"name":"royal","typeDefinition":"boolean"}],"primaryKey":{"partitionKey":["name"]},"tableOptions":{"defaultTimeToLive":0},"name":"characters"}')
+    --data '{"ifNotExists":true,"columnDefinitions":[{"static":false,"name":"name","typeDefinition":"text"},{"static":false,"name":"id","typeDefinition":"int"},{"static":false,"name":"actorName","typeDefinition":"text"},{"static":false,"name":"houseName","typeDefinition":"text"},{"static":false,"name":"royal","typeDefinition":"boolean"}],"primaryKey":{"partitionKey":["name"]},"tableOptions":{"defaultTimeToLive":0},"name":"characters"}'
 
-  curl --request POST \
+  curl -s --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/characters/rows" \
     --header 'content-type: application/json' \
     --header "x-cassandra-token: ${AUTH_TOKEN}" \
     --data '{"columns":[{"name":"id","value":1},{"name":"name","value":"Jon Snow"},{"name":"actorname","value":"Kit Harington"},{"name":"housename","value":"Stark"},{"name":"royal","value":true}]}'
 
-    curl --request POST \
+    curl -s --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/characters/rows" \
     --header 'content-type: application/json' \
     --header "x-cassandra-token: ${AUTH_TOKEN}" \
     --data '{"columns":[{"name":"id","value":2},{"name":"name","value":"Daenerys Targaryen"},{"name":"actorname","value":"Emilia Clark"},{"name":"housename","value":"Targaryen"},{"name":"royal","value":true}]}'
 
-    curl --request POST \
+    curl -s --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/characters/rows" \
     --header 'content-type: application/json' \
     --header "x-cassandra-token: ${AUTH_TOKEN}" \
@@ -72,10 +72,8 @@ function setupTable() {
 
 setupTable
 
-echo $TABLE_CREATION
-
-while [ ! "$TABLE_CREATION" = '{"success":true}' ]; do
-  echo "Your Database details were invalid. Trying again:"
+while [ "$AUTH_TOKEN" = '' ]; do
+  echo "Your database details were invalid. Trying again:"
   unset ASTRA_DB_ID
   unset ASTRA_DB_REGION
   unset ASTRA_DB_KEYSPACE
