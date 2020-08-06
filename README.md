@@ -46,7 +46,7 @@ Deploying a static web application on [Netlify](https://www.netlify.com/) allows
 
 3. Wait for your Gitpod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
-4. Set your Astra credentials in the Gitpod terminal at the bottom of the screen:
+4. Set your Astra database details in the Gitpod terminal at the bottom of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/88752966-f7c7c300-d10f-11ea-9a78-d2a9707192bd.png)
 You can find your database id here in the Astra user-interface here:
 ![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
@@ -64,9 +64,9 @@ You can find your database id here in the Astra user-interface here:
 
 3. Connect your GitHub account:
 ![image](https://user-images.githubusercontent.com/3254549/88753274-a2d87c80-d110-11ea-99cd-671b9da9cfcc.png)
-4. Fill in the Netlify environment variables with information on your Astra environment:
+4. Fill in the Netlify environment variables with information on your Astra database:
 ![image](https://user-images.githubusercontent.com/3254549/88753302-bab00080-d110-11ea-809a-22f17acb68c5.png)
-You can find your database id here:
+You can find your database id here in the Astra user-interface here:
 ![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
 5. Click 'Save and Deploy':
 ![image](https://user-images.githubusercontent.com/3254549/88744776-2c7e4f00-d0fd-11ea-8530-71e2a85e34a2.png)
