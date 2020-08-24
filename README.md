@@ -3,7 +3,7 @@ A sample React, Typescript, [DataStax Astra](https://astra.datastax.com/register
 
 Contributor: [Alex Leventer](https://github.com/alexleventer)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/3iX75yf) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/3iX75yf) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://dtsx.io/3aZJLxa)
 
 ## Objectives
 * Provide a fullstack development example using GraphQL with Astra as the storage backend.
@@ -58,7 +58,7 @@ You can find your database id here in the Astra user-interface here:
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
 2. Once you have created both an Astra account and database, click the 'Deploy to Netlify' button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/astra-gatsbyjs-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://dtsx.io/3aZJLxa)
 
 3. Connect your GitHub account:
 ![image](https://user-images.githubusercontent.com/3254549/88753274-a2d87c80-d110-11ea-99cd-671b9da9cfcc.png)
