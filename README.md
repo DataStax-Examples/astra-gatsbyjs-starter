@@ -3,8 +3,6 @@ A sample React, Typescript, [DataStax Astra](https://astra.datastax.com/register
 
 Contributor: [Alex Leventer](https://github.com/alexleventer)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/3iX75yf) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://dtsx.io/3aZJLxa)
-
 ## Objectives
 * Provide a fullstack development example using GraphQL with Astra as the storage backend.
 
