@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import {graphql, PageProps} from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { CodeBlock, dracula } from 'react-code-blocks';
+import {CodeBlock, dracula} from 'react-code-blocks';
 
-const IndexPage: React.FC<PageProps<any>> = ({ data }) => (
+const IndexPage: React.FC<PageProps<any>> = ({data}) => (
   <Layout>
     <SEO title="Home"/>
     <h3>Fields Example Query</h3>
@@ -39,15 +39,15 @@ const IndexPage: React.FC<PageProps<any>> = ({ data }) => (
 export default IndexPage;
 
 export const query = graphql`
-  query getCharacters {
-      astra {
-          gatsbyCharacters {
-              values {
-                  actorname
-                  housename
-                  name
-              }
-          }
-      }
-  }
+    query getCharacters {
+        astra {
+            gatsbyCharacters {
+                values {
+                    actorname
+                    housename
+                    name
+                }
+            }
+        }
+    }
 `;

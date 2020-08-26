@@ -4,10 +4,10 @@ import Header from './header';
 import './layout.css';
 import './astra.css';
 
-const Layout = ({ children }) => {
+const Layout = ({children}) => {
   return (
     <>
-      <Header />
+      <Header/>
       <div
         style={{
           margin: `0 auto`,
