@@ -1,5 +1,9 @@
 # Astra/Gatsby.js Starter
-A sample React, Typescript, [DataStax Astra](https://astra.datastax.com/register), Gatsby.js app starter app.
+*30 minutes, Beginner*
+
+Create a React.js, Gatsby application that reads data from [DataStax Astra](https://astra.datastax.com/register) using GraphQL.
+
+![image](https://monosnap.com/image/uPQ08h8exAXqn0d8C2GoT65SDwGT51)
 
 Contributor: [Alex Leventer](https://github.com/alexleventer)
 
