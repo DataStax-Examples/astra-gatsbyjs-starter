@@ -1,7 +1,7 @@
 # Astra/Gatsby.js Starter
 *30 minutes, Beginner*
 
-Create a React.js, Gatsby application that reads data from [DataStax Astra](https://astra.datastax.com/register) using GraphQL.
+Create a React.js, Gatsby application that reads data from [DataStax Astra](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-gatsbyjs-starter) using GraphQL.
 
 ![image](https://monosnap.com/image/uPQ08h8exAXqn0d8C2GoT65SDwGT51)
 
@@ -23,7 +23,7 @@ This example uses Typescript. TypeScript is a typed superset of JavaScript that 
 3. [Deploy the app to Netlify](#deploying-to-netlify)
 
 ### Running on your local machine
-1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-gatsbyjs-starter) and free-tier Cassandra database:
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
 2. Click 'Use this template' at the top of the README:
 ![image](https://user-images.githubusercontent.com/3254549/88746600-c3e5a100-d101-11ea-90a4-6fbd9873f2df.png)
@@ -38,7 +38,7 @@ This example uses Typescript. TypeScript is a typed superset of JavaScript that 
 ![image](https://user-images.githubusercontent.com/3254549/88751025-9e5d9500-d10b-11ea-9776-3276ada4fece.png)
 
 ### Running on Gitpod
-1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-gatsbyjs-starter) and free-tier Cassandra database:
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
 2. Once you have created both an Astra account and database, click the 'Open in Gitpod' link:
 
@@ -56,7 +56,7 @@ You can find your database id here in the Astra user-interface here:
 ![image](https://user-images.githubusercontent.com/3254549/88753166-6ad13980-d110-11ea-84c4-87932a933c6b.png)
 
 ### Deploying to Netlify
-1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-gatsbyjs-starter) and free-tier Cassandra database:
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
 2. Once you have created both an Astra account and database, click the 'Deploy to Netlify' button:
 
