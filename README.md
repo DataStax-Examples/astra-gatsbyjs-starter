@@ -1,7 +1,7 @@
 # Astra/Gatsby.js Starter
 *30 minutes, Beginner*
 
-Create a React.js, Gatsby application that reads data from [DataStax Astra](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=astra-nextjs-starter) using GraphQL.
+Create a React.js, Gatsby application that reads data from [DataStax Astra](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=astra-gatsbyjs-starter) using GraphQL.
 
 ![image](https://monosnap.com/image/uPQ08h8exAXqn0d8C2GoT65SDwGT51)
 
