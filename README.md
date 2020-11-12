@@ -42,7 +42,7 @@ This example uses Typescript. TypeScript is a typed superset of JavaScript that 
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
 2. Once you have created both an Astra account and database, click the 'Open in Gitpod' link:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/3iX75yf)
+[![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/3iX75yf)
 
 3. Wait for your Gitpod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
