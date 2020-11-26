@@ -14,8 +14,8 @@ const IndexPage: React.FC<PageProps<any>> = ({data}) => (
       astra {
           gatsbyCharacters {
               values {
-                  actorname
-                  housename
+                  actorName
+                  houseName
                   name
               }
           }
@@ -43,8 +43,8 @@ export const query = graphql`
         astra {
             gatsbyCharacters {
                 values {
-                    actorname
-                    housename
+                    actorName
+                    houseName
                     name
                 }
             }
