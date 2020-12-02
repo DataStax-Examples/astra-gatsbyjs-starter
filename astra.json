@@ -1,0 +1,12 @@
+{
+ "name": "Astra/Gatsby.js Starter",
+ "description": "Create a React.js, Gatsby application that reads data from DataStax Astra using GraphQL.",
+ "duration": "10 minutes",
+ "skillLevel": "Beginner",
+ "gitpodUrl": "https://dtsx.io/3iX75yf",
+ "githubUrl": "https://github.com/DataStax-Examples/astra-gatsbyjs-starter",
+ "netlifyUrl": "https://dtsx.io/3aZJLxa",
+ "tags": [{ "name": "javascript" }],
+ "category": "starters",
+ "priority": 2
+}
