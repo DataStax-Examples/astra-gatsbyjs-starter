@@ -1,7 +1,9 @@
+<!--- STARTEXCLUDE --->
 # Astra/Gatsby.js Starter
 *30 minutes, Beginner*
 
 Create a React.js, Gatsby application that reads data from [DataStax Astra](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=astra-gatsbyjs-starter) using GraphQL.
+<!--- ENDEXCLUDE --->
 
 ![image](https://monosnap.com/image/uPQ08h8exAXqn0d8C2GoT65SDwGT51)
 
@@ -24,7 +26,9 @@ This example uses Typescript. TypeScript is a typed superset of JavaScript that 
 
 ### Running on your local machine
 1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-gatsbyjs-starter) and free-tier Cassandra database:
+<!--- STARTEXCLUDE --->
 ![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
+<!--- ENDEXCLUDE --->
 2. Click 'Use this template' at the top of the README:
 ![image](https://user-images.githubusercontent.com/3254549/88746600-c3e5a100-d101-11ea-90a4-6fbd9873f2df.png)
 3. Enter a repository name and click 'Create repository from template':
