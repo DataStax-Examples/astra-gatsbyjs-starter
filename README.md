@@ -86,10 +86,9 @@ This example uses Typescript. TypeScript is a typed superset of JavaScript that 
 ![image](https://user-images.githubusercontent.com/3254549/88752966-f7c7c300-d10f-11ea-9a78-d2a9707192bd.png)
 
 
-You can find your database id here in the Astra user-interface here:
+You can find your database id here in the Astra database summary:
 
-
-![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
+![Group 9](https://user-images.githubusercontent.com/69874632/101193257-2bac7b00-3611-11eb-9071-95ed9bb78386.png)
 
 
 5. Click the 'Open browser' button in the bottom right of the screen:
@@ -126,10 +125,9 @@ You can find your database id here in the Astra user-interface here:
 ![image](https://user-images.githubusercontent.com/3254549/88753302-bab00080-d110-11ea-809a-22f17acb68c5.png)
 
 
-You can find your database id here in the Astra user-interface here:
+You can find your database id here in the Astra database summary:
 
-
-![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
+![Group 9](https://user-images.githubusercontent.com/69874632/101193257-2bac7b00-3611-11eb-9071-95ed9bb78386.png)
 
 
 5. Click 'Save and Deploy':
