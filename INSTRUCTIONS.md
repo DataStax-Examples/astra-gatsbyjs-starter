@@ -44,7 +44,6 @@ Remove paths that you don't need.
 *Make sure you've completed the [prerequisites](#prerequisites) before starting this step*
   - [Running on your local machine](#running-on-your-local-machine)
   - [Running on Gitpod](#running-on-gitpod)
-  - [Deploying to Vercel](#deploying-to-vercel)
   - [Deploying to Netlify](#deploying-to-netlify)
 
 <!--- 
