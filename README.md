@@ -75,14 +75,14 @@ information (we'll need this later!):
 4. You can view your app at  http://localhost:8000/:
 ![image](https://user-images.githubusercontent.com/3254549/88751025-9e5d9500-d10b-11ea-9776-3276ada4fece.png)
 
-### Running on Gitpod
-1. Click the 'Open in Gitpod' link:
+### Running on GitPod
+1. Click the 'Open in GitPod' link:
 [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/3iX75yf)
 
-2. Wait for your Gitpod workspace to start:
+2. Wait for your GitPod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
 
-3. Set your Astra database details in the Gitpod terminal at the bottom of the screen:
+3. Set your Astra database details in the GitPod terminal at the bottom of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/88752966-f7c7c300-d10f-11ea-9a78-d2a9707192bd.png)
 
 4. Click the 'Open browser' button in the bottom right of the screen:
