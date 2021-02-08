@@ -12,10 +12,10 @@ const IndexPage: React.FC<PageProps<any>> = ({data}) => (
     <CodeBlock
       text={`query getCharacters {
       astra {
-          gatsby_characters {
+          gatsbyCharacters {
               values {
-                  actor_name
-                  house_name
+                  actorName
+                  houseName
                   name
               }
           }
@@ -41,10 +41,10 @@ export default IndexPage;
 export const query = graphql`
     query getCharacters {
         astra {
-            gatsby_characters {
+            gatsbyCharacters {
                 values {
-                    actor_name
-                    house_name
+                    actorName
+                    houseName
                     name
                 }
             }
