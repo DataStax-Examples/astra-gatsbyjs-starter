@@ -26,7 +26,7 @@ module.exports = {
         url: `https://${process.env.ASTRA_DB_ID}-${process.env.ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql/${process.env.ASTRA_DB_KEYSPACE}`,
         headers: async () => {
           return {
-            "X-Application-Token": process.env.ASTRA_DB_APPLICATION_TOKEN,
+            "X-Cassandra-Token": process.env.ASTRA_DB_APPLICATION_TOKEN,
           };
         },
       },
