@@ -28,8 +28,7 @@ Follow the instructions below to get started.
 Let's do some initial setup by creating a serverless(!) database.
 
 ### DataStax Astra
-<!--- enter a unique UTM_CODE for your sample app below --->
-1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=UTM_CODE) if you don't 
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-gatsbyjs-starter) if you don't 
 already have one:
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
 
