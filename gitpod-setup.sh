@@ -32,7 +32,7 @@ function setupTable() {
   # Create tables
   echo "Creating Astra tables..."
   curl -s --request POST \
-    --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables" \
+    --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v2/schemas/keyspaces/${ASTRA_DB_KEYSPACE}/tables" \
     --header 'content-type: application/json' \
     --header "x-cassandra-token: ${ASTRA_DB_APPLICATION_TOKEN}" \
     --data '{"ifNotExists":true,"columnDefinitions":[{"static":false,"name":"name","typeDefinition":"text"},{"static":false,"name":"id","typeDefinition":"int"},{"static":false,"name":"actor_name","typeDefinition":"text"},{"static":false,"name":"house_name","typeDefinition":"text"},{"static":false,"name":"royal","typeDefinition":"boolean"}],"primaryKey":{"partitionKey":["name"]},"tableOptions":{"defaultTimeToLive":0},"name":"gatsby_characters"}'
