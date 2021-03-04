@@ -1,53 +1,52 @@
-import * as React from 'react';
-import {graphql, PageProps} from 'gatsby';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import {CodeBlock, dracula} from 'react-code-blocks';
+import * as React from "react";
+import { graphql, PageProps } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { CodeBlock, dracula } from "react-code-blocks";
 
-const IndexPage: React.FC<PageProps<any>> = ({data}) => (
+const IndexPage: React.FC<PageProps<any>> = ({ data }) => (
   <Layout>
-    <SEO title="Home"/>
+    <SEO title="Home" />
     <h3>Fields Example Query</h3>
     <h4>Example Query:</h4>
     <CodeBlock
-      text={`query getCharacters {
+      text={`query get_characters {
       astra {
-          gatsbyCharacters {
+          gatsby_characters {
               values {
-                  actorName
-                  houseName
+                  actor_name
+                  house_name
                   name
               }
           }
       }
   }`}
-      language={'graphql'}
+      language={"graphql"}
       showLineNumbers={false}
       theme={dracula}
     />
     <h4>Results:</h4>
     <CodeBlock
       text={JSON.stringify(data, null, 2)}
-      language={'json'}
+      language={"json"}
       showLineNumbers={false}
       theme={dracula}
     />
-
   </Layout>
-)
+);
 
 export default IndexPage;
 
 export const query = graphql`
-    query getCharacters {
-        astra {
-            gatsbyCharacters {
-                values {
-                    actorName
-                    houseName
-                    name
-                }
-            }
+  query get_characters {
+    astra {
+      get_characters {
+        values {
+          actor_name
+          house_name
+          name
         }
+      }
     }
+  }
 `;

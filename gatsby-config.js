@@ -1,13 +1,13 @@
-require('dotenv').config({
+require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
 if (!process.env.ASTRA_DB_ID) {
-  throw new Error('Missing required environment variable, ASTRA_DB_ID');
+  throw new Error("Missing required environment variable, ASTRA_DB_ID");
 }
 
 if (!process.env.ASTRA_DB_REGION) {
-  throw new Error('Missing required environment variable, ASTRA_DB_REGION');
+  throw new Error("Missing required environment variable, ASTRA_DB_REGION");
 }
 
 module.exports = {
@@ -26,19 +26,17 @@ module.exports = {
         url: `https://${process.env.ASTRA_DB_ID}-${process.env.ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql/${process.env.ASTRA_DB_KEYSPACE}`,
         headers: async () => {
           return {
-            'X-Cassandra-Token': await getAstraToken(),
+            "X-Cassandra-Token": process.env.ASTRA_DB_APPLICATION_TOKEN,
           };
-        }
+        },
       },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `muli`,
-        ],
-        display: 'swap'
-      }
+        fonts: [`muli`],
+        display: "swap",
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -48,5 +46,5 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-  ]
-}
+  ],
+};
