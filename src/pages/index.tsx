@@ -40,7 +40,7 @@ export default IndexPage;
 export const query = graphql`
   query get_characters {
     astra {
-      get_characters {
+      gatsby_characters {
         values {
           actor_name
           house_name
