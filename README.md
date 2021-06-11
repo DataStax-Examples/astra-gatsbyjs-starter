@@ -1,17 +1,17 @@
 <!--- STARTEXCLUDE --->
-# Astra/Gatsby.js Starter
+# Astra DB and Gatsby.js Starter
 *30 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/astra-gatsbyjs-starter#prerequisites)*
 
-Create a React.js, Gatsby application that reads data from [DataStax Astra](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=astra-gatsbyjs-starter) using GraphQL.
+Create a React.js, Gatsby application that reads data from [DataStax Astra DB](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=astra-gatsbyjs-starter) using GraphQL.
 <!--- ENDEXCLUDE --->
 
 ![image](https://monosnap.com/image/uPQ08h8exAXqn0d8C2GoT65SDwGT51)
 
 ## Objectives
-* Provide a fullstack development example using GraphQL with Astra as the storage backend.
+* Provide a fullstack development example using GraphQL with Astra DB as the storage backend.
 
 ## How this works
-Once the Astra credentials are provided, the necessary tables are created in the database. The webservice will be available on port 8080 once the application has been deployed.
+Once the Astra DB credentials are provided, the necessary tables are created in the database. The webservice will be available on port 8080 once the application has been deployed.
 
 This example uses Typescript. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, and adds optional static typing to the language. It is is designed for development of large applications and transpiles to JavaScript.
 
@@ -21,7 +21,7 @@ This example uses Typescript. TypeScript is a typed superset of JavaScript that 
 To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-gatsbyjs-starter](https://github.com/DataStax-Examples/astra-gatsbyjs-starter#prerequisites)
 
 <!--- STARTEXCLUDE --->
-# Running Astra/Gatsby.js Starter
+# Running the Astra DB and Gatsby.js Starter
 Follow the instructions below to get started.
 
 ## Prerequisites
@@ -85,7 +85,7 @@ Let's do some initial setup by creating a serverless(!) database.
 2. Wait for your GitPod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
 
-3. Set your Astra database details in the GitPod terminal at the bottom of the screen:
+3. Set your Astra DB details in the GitPod terminal at the bottom of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/88752966-f7c7c300-d10f-11ea-9a78-d2a9707192bd.png)
 
 4. Click the 'Open browser' button in the bottom right of the screen:
@@ -101,7 +101,7 @@ Let's do some initial setup by creating a serverless(!) database.
 2. Connect your GitHub account:
 ![image](https://user-images.githubusercontent.com/3254549/88753274-a2d87c80-d110-11ea-99cd-671b9da9cfcc.png)
 
-3. Fill in the Netlify environment variables with information on your Astra database:
+3. Fill in the Netlify environment variables with information on your Astra DB:
 ![image](https://user-images.githubusercontent.com/3254549/88753302-bab00080-d110-11ea-809a-22f17acb68c5.png)
 
 4. Click 'Save and Deploy':
