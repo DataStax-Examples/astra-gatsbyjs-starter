@@ -2,7 +2,7 @@
 # Astra DB and Gatsby.js Starter
 *30 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/astra-gatsbyjs-starter#prerequisites)*
 
-Create a React.js, Gatsby application that reads data from [DataStax Astra DB](https://dtsx.io/3jyusRU) using GraphQL.
+Create a React.js, Gatsby application that reads data from [DataStax Astra DB](https://dtsx.io/3BEQp7R) using GraphQL.
 <!--- ENDEXCLUDE --->
 
 ![image](https://monosnap.com/image/uPQ08h8exAXqn0d8C2GoT65SDwGT51)
@@ -28,7 +28,7 @@ Follow the instructions below to get started.
 Let's do some initial setup by creating a serverless(!) database.
 
 ### DataStax Astra
-1. Create a [DataStax Astra account](https://dtsx.io/3jyusRU) if you don't already have one:
+1. Create a [DataStax Astra account](https://dtsx.io/3BEQp7R) if you don't already have one:
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
 
 2. On the home page. Locate the button **`Create Database`**
