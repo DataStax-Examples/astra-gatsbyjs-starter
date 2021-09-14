@@ -5,7 +5,7 @@
 Create a React.js, Gatsby application that reads data from [DataStax Astra DB](https://dtsx.io/3BEQp7R) using GraphQL.
 <!--- ENDEXCLUDE --->
 
-![image](https://monosnap.com/image/uPQ08h8exAXqn0d8C2GoT65SDwGT51)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-gatsbyjs-starter/master/hero.png)
 
 ## Objectives
 * Provide a fullstack development example using GraphQL with Astra DB as the storage backend.

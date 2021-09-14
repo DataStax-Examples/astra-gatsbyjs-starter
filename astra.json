@@ -8,5 +8,6 @@
   "netlifyUrl": "https://dtsx.io/3aZJLxa",
   "tags": [{ "name": "javascript" }, { "name": "graphql" }],
   "category": "starters",
-  "priority": 2
+  "priority": 2,
+  "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/astra-gatsbyjs-starter/master/hero.png"
 }
