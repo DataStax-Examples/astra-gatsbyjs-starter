@@ -1,17 +1,10 @@
-image: gitpod/workspace-full
 tasks:
-  - init: yarn install
-    command: . ./gitpod-setup.sh && yarn start
+  - name: nodejs
+    before: |
+      npm install
+    command: |
+      gp open README.md
 ports:
   - port: 8000
     onOpen: open-browser
-github:
-  prebuilds:
-    master: true
-    branches: false
-    pullRequests: false
-    pullRequestsFromForks: false
-    addCheck: false
-    addComment: false
-    addBadge: false
-    addLabel: false
+    visibility: public
